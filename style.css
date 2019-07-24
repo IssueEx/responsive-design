@@ -1,0 +1,47 @@
+
+nav, footer {
+  background-color: grey;
+  height: 50px;
+}
+
+section {
+  padding: 10px;
+}
+.no{
+  display:flex;
+  justify-content:flex-start;
+
+
+
+
+
+}
+
+.a {
+  background-color: #F13131;
+
+  width:200px;
+
+}
+
+.b {
+  background-color: #F19731;
+
+  width:200px;
+
+}
+
+.c {
+  background-color: #F1EE31;
+  width:200px;
+
+}
+
+@@media screen and{ max-width:985px {
+  .no{
+    display:flex;
+    flex-direction:column;
+}
+
+
+}
